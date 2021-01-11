@@ -1,0 +1,66 @@
+.Main{
+  width: 100%;
+  height: 100vh;
+  background-color: blueviolet;
+  padding-top: 200px;
+}
+
+.quoteWrapper{
+    width: 500px;
+    margin: auto;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.quoteWrapper span{
+    display: block;
+    text-align: right;
+}
+.quoteWrapper h1{
+  margin-top: 0px;
+  text-align: center;
+}
+.quoteWrapper div{
+
+}
+
+.btnWrapper{
+  margin-top: 7px;
+}
+.quoteWrapper button{
+  color: #fff;
+  padding: 10px;
+
+}
+
+.btnWrapper button{
+  float:right;
+  transition: 0.3s;
+  cursor:pointer;
+}
+
+.btnWrapper button:hover{
+  opacity: 0.4;
+}
+
+.icons svg{
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.icons svg:hover{
+  opacity: 0.4;
+}
+
+footer{
+  text-align: center;
+}
+
+footer p{
+  color: black;
+  font-size: 18px;
+}
